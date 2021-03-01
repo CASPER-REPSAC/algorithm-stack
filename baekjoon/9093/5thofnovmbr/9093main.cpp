@@ -15,7 +15,8 @@ int main(void) {
 	getchar();
 
 	st = (char*)malloc(sizeof(char) * LINE * t);
-	// 포인터를 2차원 배열 같은 느낌으로 활용
+	// 포인터를 2차원 배열 같은 느낌으로 활용..
+	// 하려고 했는데 2차원 포인터는 이렇게 쓰는게 아닌듯 하다.
 
 	for (i = 0; i < t; i++)
 	{
