@@ -14,9 +14,16 @@ int main(){
     getline(cin, input);
 
     for(; i<input.length(); i++){
-        if(input[i] == '<') check = true;
-        else if(input[i] == '>') check = false;
+        if(input[i] == '<') {
+            cout << input[i];
+            check = true;
+        }
+        else if(input[i] == '>') {
+            cout << input[i];
+            check = false;
+        }
         else if(check == false){
+            start = i;
             for(; i<input.length(); i++){
                 if(input[i] == '<') break;
                 else if(input[i] == ' '){
@@ -30,13 +37,10 @@ int main(){
             tmp = input.substr(start, i-start);
             reverse(tmp.begin(), tmp.end());
 
-            cout << tmp << " ";
+            cout << tmp;
             start = i + 1;
+            i--;
         }
+        else cout << input[i];
     }
-    // tmp = input.substr(start, i-start);
-    // reverse(tmp.begin(), tmp.end());
-
-    // cout << tmp;
-    // cout << input[i];
 }
