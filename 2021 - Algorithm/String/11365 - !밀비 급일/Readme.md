@@ -21,3 +21,7 @@ What a good code!
 obfustication
 We intend to begin on the first of February unrestricted submarine warfare
 Concealed within his fortress, the lord of Mordor sees all
+
+|제출 번호|아이디|문제|결과|메모리|시간|언어|코드길이|
+|:---|:---|:---|:---|:---|:---|:---|:---|
+|33235147|dnjsrua88|11365|맞았습니다!!|29200kb|72ms|python3 / 수정|98B
