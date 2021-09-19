@@ -6,7 +6,7 @@ lst = dict()
 result = "YES"
 
 for i in range(n):
-    c = sys.stdin.readline().split()
+    c = sys.stdin.readline().split() 
     x = int(c[0]) - int(c[1])
     y = int(c[0]) + int(c[1])
     if (x in lst and y not in lst) or (x not in lst and y in lst):
