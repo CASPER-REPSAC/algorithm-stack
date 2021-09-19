@@ -2,8 +2,8 @@ from sys import stdin
 from collections import deque
 
 N = int(stdin.readline())
-ballon = deque(enumerate(map(int,stdin.readline().split()))) # ennumerate : 인덱스와 같이 튜플로 저장
-
+ballon = deque(enumerate(map(int,stdin.readline().split()))) 
+# ennumerate : 인덱스와 같이 튜플로 저장
 while True:
     index, data = ballon.popleft()
     print(index+1,end=' ')
@@ -16,5 +16,3 @@ while True:
 
     elif data<0:
         ballon.rotate(-data)
-
-
