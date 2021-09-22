@@ -66,9 +66,7 @@ if __name__ == '__main__':
             root.right = Node(data[2])
         else:
             node = root.search(data[0])
-
             node.left = Node(data[1])
-
             node.right = Node(data[2])
 
     root.preorder_traversal()
