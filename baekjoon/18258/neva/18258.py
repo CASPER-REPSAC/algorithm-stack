@@ -8,7 +8,7 @@ class Queue:
 
   def push(self, x):
     self.queue.append(x)
-  
+
   def pop(self):
     if self.empty():
       return -1
