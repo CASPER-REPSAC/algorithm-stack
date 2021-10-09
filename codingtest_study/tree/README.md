@@ -1,4 +1,4 @@
-# 자료구조 백준 문제
+# 트리 백준 문제
 
 https://github.com/tony9402/baekjoon/tree/main/tree
 
