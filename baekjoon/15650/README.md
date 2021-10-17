@@ -1,4 +1,4 @@
-# [15657](https://www.acmicpc.net/problem/15657)
+# [15650](https://www.acmicpc.net/problem/15657)
 
 # N과 M (8)
 
