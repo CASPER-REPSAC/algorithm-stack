@@ -12,4 +12,8 @@ if __name__ == "__main__":
         for j in range(2**i, num_list_len+1, 2**(i+1)):
             print(num_list[j-1], end=' ')
         print()
+    
+    # 2 ** (k-1)
+    # 2 ** (k-2), 2 ** (k-2) + 2 ** (k-1)
+    # 2 ** (k-3), 2 ** (k-3) + 2 ** (k-2), 2 ** (k-3) + 2 ** (k-2) + 2 ** (k-1)
 
