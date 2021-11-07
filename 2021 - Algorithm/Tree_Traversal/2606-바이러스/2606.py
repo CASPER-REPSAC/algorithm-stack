@@ -9,8 +9,8 @@ infection = [0] * n
 
 for _ in range(m):
     a,b = map(int,input().split())
-    a = a-1
-    b = b-1
+    a -=1
+    b -=1
     relation[a][b] = relation[b][a] = 1
 
 count = []
